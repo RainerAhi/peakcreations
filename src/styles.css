@@ -60,7 +60,7 @@ section {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(90deg, #111111, #545dfe, #545dfe, #111111, #545dfe, #545dfe, #111111);
+  background-image: linear-gradient(90deg, #111111, #bb87fd, #bb87fd, #111111, #bb87fd, #bb87fd, #111111);
   background-size: 400% 400%;
   animation: animate 8s linear infinite alternate;
 }
@@ -201,9 +201,11 @@ section {
 }
 
 .broneeri-kõne {
-  width: 250px;
+  width: auto;
   height: auto;
-  background-color: #545dfe;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: #bb87fd;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -211,6 +213,9 @@ section {
   margin-left: 7.5%;
   cursor: pointer;
 }
+
+
+
 
 
 /* SECTION TWO */
@@ -253,7 +258,7 @@ section {
   display: flex;
   background-color: transparent;
   border-radius: 50px;
-  border: #545dfe solid 1px;
+  border: #bb87fd solid 1px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +272,7 @@ section {
   background-color: transparent;
   align-self: center;
   border-radius: 50px;
-  border: 4px solid #fefeff;
+  border: 5px solid #fefeff;
   pointer-events: all;
   transition: 0.25s ease-in-out;
   display: flex;
@@ -312,7 +317,7 @@ section {
 }
 
 .carousel-image:hover {
-  border: 4px solid #545dfe;
+  border: 5px solid #bb87fd;
 }
 
 .carousel-image-one {
@@ -362,7 +367,7 @@ section {
   width: 175vh;
   height: 175vh;
   border-radius: 100%;
-  background-color: #545dfe;
+  background-color: #bb87fd;
   filter: blur(150px);
   opacity: 0.5;
   position: absolute;
@@ -373,7 +378,7 @@ section {
   width: 175vh;
   height: 175vh;
   border-radius: 100%;
-  background-color: #545dfe;
+  background-color: #bb87fd;
   filter: blur(150px);
   opacity: 0.5;
   position: absolute;
@@ -441,6 +446,39 @@ section {
 .review-logo-text-one, .review-logo-text-two, .review-logo-text-three, .review-logo-text-four {
   font-size: 0.75vw;
 }
+
+/* FOUR */
+
+
+/* FIVE */
+
+.five-content {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  margin-top: 0%;
+  background-color: transparent;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.five-price-containers {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.price-container {
+  width: 30%;
+  height: 100%;
+  border-radius: 50px;
+  border: #bb87fd solid 2px;
+  background-color: transparent;
+}
+
 
 
 /* LOADING SCREEN */

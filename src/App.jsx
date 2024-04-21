@@ -8,6 +8,7 @@ import { Section3 } from "./Sections/Section3";
 import Animations from "./Animations";
 import { Section4 } from "./Sections/Section4";
 import { useRef } from "react";
+import { Section5 } from "./Sections/Section5";
 
 const LoadingScreen = () => {
   const { progress, active } = useProgress();
@@ -46,6 +47,7 @@ function App() {
   const section2Ref = useRef(null);
   const section3Ref = useRef(null);
   const section4Ref = useRef(null);
+  const section5Ref = useRef(null);
 
 
   const scrollToSection = (ref) => {
@@ -66,7 +68,7 @@ function App() {
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section2Ref)} >Projektid</h1>
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section3Ref)} >Arvustused</h1>
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section4Ref)} >Meist</h1>
-            <h1 className="small-text navigation-text" >Hinnakiri</h1>
+            <h1 className="small-text navigation-text" onClick={() => scrollToSection(section5Ref)} >Hinnakiri</h1>
           </div>
         </div>
 
@@ -79,6 +81,9 @@ function App() {
         </div>
         <div ref={section4Ref}>
           <Section4 />
+        </div>
+        <div ref={section5Ref}>
+          <Section5 />
         </div>
             
       </>
