@@ -1,26 +1,12 @@
 import Lenis from "@studio-freight/lenis";
 
-import { useProgress } from "@react-three/drei";
-
 import { Section2 } from "./Sections/Section2";
 import { Section1 } from "./Sections/Section1";
 import { Section3 } from "./Sections/Section3";
 import Animations from "./Animations";
 import { Section4 } from "./Sections/Section4";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Section5 } from "./Sections/Section5";
-
-const LoadingScreen = () => {
-  const { progress, active } = useProgress();
-
-  return (
-    <div className={`loading-screen ${active ? "" : "loading-screen--hidden"}`}>
-      <div className="loading-screen__container">
-        <h1 className="loading-screen__title">PEAK CREATIONS</h1>
-      </div>
-    </div>
-  );
-};
 
 function App() {
 
@@ -56,7 +42,6 @@ function App() {
 
     return (
       <>
-        <LoadingScreen />
         <Animations />
 
         
