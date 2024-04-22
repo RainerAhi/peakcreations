@@ -27,10 +27,10 @@ export default function Animations() {
 
       gsap.from(text.chars, {
               scrollTrigger: {
-                  trigger: char,
-                  start: 'top 70%',
-                  end: 'bottom 30%',
-                  scrub: true,
+                trigger: char,
+                start: 'top 70%',
+                end: 'bottom 30%',
+                scrub: true,
               },
               opacity: 0.2,
               stagger: 0.1,
@@ -224,7 +224,7 @@ export default function Animations() {
       opacity: 1,
         scrollTrigger: {
           trigger: ".review-four",
-          start: "top bottom-=300", // Start when the bottom of the viewport touches the bottom of .project-one
+          start: "top bottom-=400", // Start when the bottom of the viewport touches the bottom of .project-one
           end: "bottom top",
           scrub: true,
           immediateRender: false,
@@ -236,7 +236,7 @@ export default function Animations() {
         opacity: 1,
           scrollTrigger: {
             trigger: ".review-four",
-            start: "top bottom-=300", // Start when the bottom of the viewport touches the bottom of .project-one
+            start: "top bottom-=400", // Start when the bottom of the viewport touches the bottom of .project-one
             end: "bottom top",
             scrub: true,
             immediateRender: false,
@@ -249,7 +249,7 @@ export default function Animations() {
           opacity: 1,
             scrollTrigger: {
               trigger: ".review-four",
-              start: "top bottom-=300", // Start when the bottom of the viewport touches the bottom of .project-one
+              start: "top bottom-=400", // Start when the bottom of the viewport touches the bottom of .project-one
               end: "bottom top",
               scrub: true,
               immediateRender: false,
@@ -261,7 +261,7 @@ export default function Animations() {
             opacity: 1,
               scrollTrigger: {
                 trigger: ".review-four",
-                start: "top bottom-=300", // Start when the bottom of the viewport touches the bottom of .project-one
+                start: "top bottom-=400", // Start when the bottom of the viewport touches the bottom of .project-one
                 end: "bottom top",
                 scrub: true,
                 immediateRender: false,
