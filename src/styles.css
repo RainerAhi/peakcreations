@@ -316,6 +316,7 @@ section {
   height: auto;
   display: flex;
   flex-direction: column;
+  gap: 1vw;
 }
 
 .carousel-image-info-details {
@@ -475,15 +476,76 @@ section {
 
 /* FOUR */
 
+.four-content {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  margin-top: 0%;
+  background-color: transparent;
+  flex-direction: column;
+  margin-left: 5%;
+  justify-content: space-evenly;
+}
 
-/* FIVE */
+.about-us {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+}
 
-.five {
+.about-us-picture {
+  flex: 0 0 40vh; /* Set a fixed size square based on the height of .about-us */
+  position: relative;
+  background-color: #111111;
+  background-image: url('/neue4.jpg'); 
+  background-size: cover; 
+  border-radius: 50px;
+}
+
+.about-us-picture-2 {
+  flex: 0 0 40vh; /* Set a fixed size square based on the height of .about-us */
+  position: relative;
+  background-color: #111111;
+  background-image: url('/neue5.jpg'); 
+  background-size: cover; 
+  border-radius: 50px;
+}
+
+.about-us-texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+.about-us-texts-2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+.about-us-text {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.about-us-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #787f8750;
+}
+
+
+/* SIX */
+
+.six {
   background-color: transparent;
   background-color: #111111;
 }
 
-.five-content {
+.six-content {
   width: 90%;
   height: 100vh;
   display: flex;
@@ -494,7 +556,7 @@ section {
   justify-content: center;
 }
 
-.five-price-containers {
+.six-price-containers {
   width: 100%;
   height: 85vh;
   display: flex;

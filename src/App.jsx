@@ -6,6 +6,7 @@ import { Section3 } from "./Sections/Section3";
 import Animations from "./Animations";
 import { Section4 } from "./Sections/Section4";
 import { useEffect, useRef, useState } from "react";
+import { Section6 } from "./Sections/Section6";
 import { Section5 } from "./Sections/Section5";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
   const section2Ref = useRef(null);
   const section3Ref = useRef(null);
   const section4Ref = useRef(null);
-  const section5Ref = useRef(null);
+  const section6Ref = useRef(null);
 
 
   const scrollToSection = (ref) => {
@@ -53,7 +54,7 @@ function App() {
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section2Ref)} >Projektid</h1>
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section3Ref)} >Arvustused</h1>
             <h1 className="small-text navigation-text" onClick={() => scrollToSection(section4Ref)} >Meist</h1>
-            <h1 className="small-text navigation-text" onClick={() => scrollToSection(section5Ref)} >Hinnakiri</h1>
+            <h1 className="small-text navigation-text" onClick={() => scrollToSection(section6Ref)} >Hinnakiri</h1>
           </div>
         </div>
 
@@ -67,8 +68,9 @@ function App() {
         <div ref={section4Ref}>
           <Section4 />
         </div>
-        <div ref={section5Ref}>
-          <Section5 />
+        <Section5 />
+        <div ref={section6Ref}>
+          <Section6 />
         </div>
             
       </>
