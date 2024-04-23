@@ -2,6 +2,11 @@ import React from "react";
 
 export const Section1 = () => {
 
+  const handleClick = (linkUrl) => {
+    // Open the specified webpage link in a new tab when carousel-content is clicked
+    window.open(linkUrl, '_blank');
+  };
+
     return (
       <section className="one">
 
@@ -14,7 +19,7 @@ export const Section1 = () => {
             </div>
             <div className="one-bottom-row-right" >
               <p className="description" >Pakume tipptasemel lühivideote<br/>& modernsete veebilehtede lahendusi.</p>
-              <div className="broneeri-kõne" >
+              <div className="broneeri-kõne" onClick={() => handleClick('https://calendly.com/d/cn6c-4s9-66h/meeting?month=2024-04')} >
                 <h1 className="small-description white bold" >Broneeri kõne</h1>
               </div>
             </div>

@@ -2,6 +2,11 @@ import React from "react";
 
 export const Section6 = () => {
 
+    const handleClick = (linkUrl) => {
+        // Open the specified webpage link in a new tab when carousel-content is clicked
+        window.open(linkUrl, '_blank');
+      };
+
     return (
     <section className="six">
         <div className="six-content" >
@@ -17,7 +22,7 @@ export const Section6 = () => {
                     <li className="description white" >Personaalne produtsent, videograaf ja monteerija</li>
                     <li className="description white" >Igakuine raport</li>
                    </ul>
-                   <div className="broneeri-kõne-hind" >
+                   <div className="broneeri-kõne-hind" onClick={() => handleClick('https://calendly.com/d/cn6c-4s9-66h/meeting?month=2024-04')} >
                         <h1 className="small-description white bold" >Broneeri kõne</h1>
                     </div>
                 </div>
@@ -32,7 +37,7 @@ export const Section6 = () => {
                     <li className="description white" >Personaalne produtsent, videograaf ja monteerija</li>
                     <li className="description white" >Igakuine raport</li>
                    </ul>
-                   <div className="broneeri-kõne-hind" >
+                   <div className="broneeri-kõne-hind" onClick={() => handleClick('https://calendly.com/d/cn6c-4s9-66h/meeting?month=2024-04')} >
                         <h1 className="small-description white bold" >Broneeri kõne</h1>
                     </div>
                 </div>
@@ -47,7 +52,7 @@ export const Section6 = () => {
                     <li className="description white" >Personaalne produtsent, videograaf ja monteerija</li>
                     <li className="description white" >Igakuine raport</li>
                    </ul>
-                   <div className="broneeri-kõne-hind" >
+                   <div className="broneeri-kõne-hind" onClick={() => handleClick('https://calendly.com/d/cn6c-4s9-66h/meeting?month=2024-04')} >
                         <h1 className="small-description white bold" >Broneeri kõne</h1>
                     </div>
                 </div>
