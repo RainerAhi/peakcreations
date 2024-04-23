@@ -11,7 +11,10 @@ export const Section6 = () => {
     <section className="six">
 
         <div className="six-content" >
-            <h1 className="medium-headline white six-content-title" >Produtsent, videograaf ja monteerija —<br/> Sinu all-in-one videotiim ühes paketis.</h1>
+            <div className="six-content-top" >
+                <h1 className="description bold headline-purple six-content-title-top" >Hinnakiri</h1>
+                <h1 className="medium-headline white six-content-title-bottom" >Produtsent, videograaf ja monteerija —<br/> Sinu all-in-one videotiim ühes paketis.</h1>
+            </div>
             <div className="six-price-containers" >
                 <div className="price-container" >
                    <h1 className="small-headline headline-purple" >Alustaja</h1> 
@@ -63,6 +66,7 @@ export const Section6 = () => {
 
         
         <div className="background-element-three" />
+        <div className="background-element-four" />
 
     </section>
     )

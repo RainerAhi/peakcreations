@@ -561,13 +561,15 @@ section {
 
 .five {
   display: flex;
-  margin-bottom: 10%;
-  height: 90vh;
+  height: 110vh;
+  position: relative;
+  background-color: #fefeff;
+  z-index: 20;
 }
 
 .five-content {
   width: 90%;
-  height: 100%;
+  height: 90vh;
   margin-left: 5%;
   display: flex;
   flex-direction: column;
@@ -592,10 +594,22 @@ section {
   height: 130vh;
 }
 
-.six-content-title {
+.six-content-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  width: 75%;
-  align-self: center;
+}
+
+.six-content-title-top {
+  margin-top: 0%;
+  margin-bottom: 0.25%;
+}
+
+.six-content-title-bottom {
+  margin-top: 0.25%;
+  margin-bottom: 0%;
 }
 
 .six-content {
@@ -672,7 +686,21 @@ section {
   opacity: 0.5;
   position: absolute;
   left: 130vh;
-  margin-top: 80vh;
+  margin-top: 100vh;
+  z-index: 0;
+}
+
+.background-element-four {
+  width: 100vh;
+  height: 100vh;
+  border-radius: 100%;
+  background-color: #bb87fd;
+  filter: blur(150px);
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  margin-right: 130vh;
+  margin-top: -70vh;
   z-index: 0;
 }
 
