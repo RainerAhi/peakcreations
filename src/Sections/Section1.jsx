@@ -20,7 +20,7 @@ export const Section1 = () => {
             <div className="one-bottom-row-right" >
               <p className="description" >Pakume tipptasemel lühivideote<br/>& modernsete veebilehtede lahendusi.</p>
               <div className="broneeri-kõne" onClick={() => handleClick('https://calendly.com/d/cn6c-4s9-66h/meeting?month=2024-04')} >
-                <h1 className="small-description white bold" >Broneeri kõne</h1>
+                <h1 className="small-description white bold broneeri-kõne-text" >Broneeri kõne</h1>
               </div>
             </div>
           </div>

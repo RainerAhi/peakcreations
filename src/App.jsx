@@ -8,6 +8,7 @@ import { Section4 } from "./Sections/Section4";
 import { useEffect, useRef, useState } from "react";
 import { Section6 } from "./Sections/Section6";
 import { Section5 } from "./Sections/Section5";
+import { Section7 } from "./Sections/Section7";
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
         <div ref={section6Ref}>
           <Section6 />
         </div>
+        <Section7 />
             
       </>
     )
