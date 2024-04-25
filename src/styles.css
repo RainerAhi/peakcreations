@@ -733,7 +733,7 @@ section {
 }
 
 .accordion {
-  background-color: #fefeff;
+  background-color: #bbb3dc;
   cursor: pointer;
   padding-left: 1vw;
   padding-right: 1vw;
@@ -780,7 +780,19 @@ section {
   transition: max-height 0.5s ease;
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
+
+.small-text-accordion {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 1vw;
+}
+
 
 
 .rotate {
